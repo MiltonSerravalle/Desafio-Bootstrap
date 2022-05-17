@@ -74,13 +74,291 @@
     padding-bottom: 20px;
 }
 
+/*BODY COMPRAR*/
+
+.comprarMain {
+    grid-area: main;
+    background: black;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.comprarSeccion1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seccion1H1 {
+    background-color: rgb(61, 248, 4);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    height: 60px;
+
+}
+
+.comprarList {
+    background-color: rgb(61, 248, 4);
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 600px;
+    font-size: 1.30rem;
+}
+
+.comprarList ul {
+
+    text-align: center;
+    margin: 30px;
+}
+
+.comprarList ul li {
+    margin: 40px;
+}
+
+.comprarSeccion2 h1 {
+    background-color: rgb(61, 248, 4);
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.comprarSeccion2 table {
+    background: rgb(61, 248, 4);
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.comprarTableItem {
+    border: black 2px solid;
+}
+
+/*BODY CONTACTO*/
+
+.bodyContact {
+    grid-area: main;
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.bodyContact h1 {
+    background-color: rgb(61, 248, 4);
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    height: 45px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+.bodyContactoForm {
+    border-radius: 15px;
+    border-color: rgb(61, 248, 4);
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    justify-content: center;
+}
+
+.formItem label {
+    padding: .5em 1em .5em 0;
+    color: rgb(61, 248, 4);
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+.formInput {
+    background-color: black;
+    color: rgb(61, 248, 4);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.formDivButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.formButton:hover {
+    transition: .2s;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(0, 0, 0);
+}
+
+.formInput:hover {
+    transition: .2s;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(0, 0, 0);
+    border-color: rgb(61, 248, 4);
+}
+
+/* MAIN NOSOTROS*/
+
+.nosotros {
+    grid-area: main;
+    text-align: center;
+    background-color: black;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100vw;
+}
+
+.nosotros h1 {
+    background-color: rgb(61, 248, 4);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    height: 50px;
+}
+
+.nosotrosUl {
+    background-color: rgb(61, 248, 4);
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 600px;
+    font-size: 1.30rem;
+}
+
+.nosotrosUl ul {
+    margin: 40px;
+}
+
+.nosotrosUl ul li {
+    margin: 30px;
+}
+
+.nosotros h3 {
+    text-align: center;
+    color: rgb(61, 248, 4);
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.nosotrosVideo {
+    display: flex;
+    justify-content: center;
+}
+
+/*MAIN PRODUCTOS*/
+
+.mainProduct {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+.buzos h1,
+.remeras h1 {
+    background: rgb(61, 248, 4);
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.buzosProduct,
+.remerasProduct {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    margin: 15px;
+}
+
+.buzosProductItem,
+.remerasProductItem {
+    border: 2px solid rgb(61, 248, 4);
+    padding-bottom: 5px;
+}
+
+.buzosProductItem img,
+.remerasProductItem img {
+    width: 300px;
+}
+
+.buzosProductItem h3,
+.remerasProductItem h3 {
+    color: rgb(61, 248, 4);
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.buzosProductItem h4,
+.remerasProductItem h4 {
+    color: rgb(61, 248, 4);
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+.buzosImg:hover,
+.remerasImg:hover {
+    transition: .2s;
+    transform: translateY(-5px) scale(1.10);
+    box-shadow: 0 5px 5px 0px rgb(0, 0, 0);
+    border: 5px solid rgb(61, 248, 4);
+}
+
+.productText {
+    text-align: center;
+}
 
 
 
+@media screen and (max-width:995px){
+    .container-fluid {
+        
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+    }
+}
 
 
 
-@media screen and (max-width:525px) {
+@media screen and (max-width:598px) {
     /*MAIN INDEX*/
 
     .bodyMain h2 {
@@ -104,4 +382,76 @@
         gap: 20px;
     }
 
+    /*MAIN COMPRAR*/
+    .comprarSeccion1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .seccion1H1 {
+        width: 300px;
+        height: 80px;
+    }
+
+    .comprarList {
+        width: 250px;
+        font-size: 1rem;
+    }
+
+    .comprarList ul {
+        text-align: left;
+        margin: 10px;
+    }
+
+    .comprarList ul li {
+        margin: 18px;
+    }
+
+    /*MAIN NOSOTROS*/
+    .nosotros {
+        width: 100vw;
+    }
+
+
+    .nosotrosUl {
+        width: 250px;
+        font-size: 1rem;
+    }
+
+    .nosotrosUl ul li {
+        margin: 5px;
+    }
+
+    .nosotrosVideo {
+        margin: 15px;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*MAIN PRODUCTOS*/
+    .buzosProduct,
+    .remerasProduct {
+        flex-direction: column;
+    }
+
+    .buzosProductItem,
+    .remerasProductItem {
+        width: 300px;
+        justify-content: center;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .buzos h1,
+    .remeras h1 {
+        width: 200px;
+    }
+
+    .productText {
+        text-align: center;
+    }
 }
