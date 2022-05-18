@@ -346,19 +346,19 @@
     text-align: center;
 }
 
-
-
-@media screen and (max-width:995px){
-    .container-fluid {
-        
-        flex-direction: row !important;
-        justify-content: space-evenly !important;
+@media screen and (max-width:995px) {
+    .imgHeader {
+        width: 400px;
     }
-}
+
+    .container-fluid {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        margin: auto 0 !important;
+    }
 
 
-
-@media screen and (max-width:598px) {
     /*MAIN INDEX*/
 
     .bodyMain h2 {
